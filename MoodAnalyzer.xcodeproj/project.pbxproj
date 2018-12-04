@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AE3B897521B6B50A00A0A8D2 /* MoodAnalyzer.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = AE3B897421B6B50A00A0A8D2 /* MoodAnalyzer.mlmodel */; };
+		AE3B897A21B6B54D00A0A8D2 /* MoodModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3B897921B6B54D00A0A8D2 /* MoodModel.swift */; };
 		AEBE5EA721B5BC8F004E6666 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBE5EA621B5BC8F004E6666 /* AppDelegate.swift */; };
 		AEBE5EA921B5BC8F004E6666 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEBE5EA821B5BC8F004E6666 /* ViewController.swift */; };
 		AEBE5EAC21B5BC8F004E6666 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEBE5EAA21B5BC8F004E6666 /* Main.storyboard */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AE3B897421B6B50A00A0A8D2 /* MoodAnalyzer.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MoodAnalyzer.mlmodel; sourceTree = "<group>"; };
+		AE3B897921B6B54D00A0A8D2 /* MoodModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodModel.swift; sourceTree = "<group>"; };
 		AEBE5EA321B5BC8F004E6666 /* MoodAnalyzer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoodAnalyzer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEBE5EA621B5BC8F004E6666 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AEBE5EA821B5BC8F004E6666 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -35,6 +39,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AE3B897621B6B51000A0A8D2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AEBE5EA821B5BC8F004E6666 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		AE3B897721B6B51A00A0A8D2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AE3B897921B6B54D00A0A8D2 /* MoodModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AE3B897821B6B52500A0A8D2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		AEBE5E9A21B5BC8F004E6666 = {
 			isa = PBXGroup;
 			children = (
@@ -54,11 +81,14 @@
 		AEBE5EA521B5BC8F004E6666 /* MoodAnalyzer */ = {
 			isa = PBXGroup;
 			children = (
+				AE3B897821B6B52500A0A8D2 /* View */,
+				AE3B897721B6B51A00A0A8D2 /* Model */,
+				AE3B897621B6B51000A0A8D2 /* Controller */,
 				AEBE5EA621B5BC8F004E6666 /* AppDelegate.swift */,
-				AEBE5EA821B5BC8F004E6666 /* ViewController.swift */,
 				AEBE5EAA21B5BC8F004E6666 /* Main.storyboard */,
 				AEBE5EAD21B5BC91004E6666 /* Assets.xcassets */,
 				AEBE5EAF21B5BC91004E6666 /* LaunchScreen.storyboard */,
+				AE3B897421B6B50A00A0A8D2 /* MoodAnalyzer.mlmodel */,
 				AEBE5EB221B5BC91004E6666 /* Info.plist */,
 			);
 			path = MoodAnalyzer;
@@ -137,6 +167,8 @@
 			files = (
 				AEBE5EA921B5BC8F004E6666 /* ViewController.swift in Sources */,
 				AEBE5EA721B5BC8F004E6666 /* AppDelegate.swift in Sources */,
+				AE3B897A21B6B54D00A0A8D2 /* MoodModel.swift in Sources */,
+				AE3B897521B6B50A00A0A8D2 /* MoodAnalyzer.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
